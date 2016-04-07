@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class TextContainer {
 
-    String regExp = "[A-Za-zА-Яа-яąęłśźżóć]{4,}";
+    String regExp = "[A-Za-zА-Яа-яĄąĘęŁłŚśŹźŻżÓóĆć]{4,}";
     String entryText;
     //boolean isTransformed = false;
 
