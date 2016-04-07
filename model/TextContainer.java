@@ -13,11 +13,15 @@ public class TextContainer {
 
     String regExp = "[A-Za-zА-Яа-яąęłśźżóć]{4,}";
     String entryText;
-    boolean isTransformed = false;
+    //boolean isTransformed = false;
 
     public TextContainer(String entryText) {
         this.entryText = entryText;
     }
+
+//    public void setTransformed(boolean transformed) {
+//        isTransformed = transformed;
+//    }
 
     public void setRegExp(String regExp) {
         this.regExp = regExp;
